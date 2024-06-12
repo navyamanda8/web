@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('rest11.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #f9c800;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.get-started-container {
+    text-align: center;
+    margin-bottom: px;
+
+}
+
+.get-started-button {
+    display: inline-block;
+    padding: 12px 48px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.get-started-button:hover {
+    background-color: #45a049;
+}
+
+.get-started-button:active {
+    background-color: #3e8e41;
+}
