@@ -5,9 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biryani</title>
     <link rel="stylesheet" href="styles1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Adjust font family as needed */
+            background-color: #f0f0f0; /* Adjust background color as needed */
+            margin: 0;
+            padding: 0;
+        }
+        .highlight {
+            text-align: center;
+            background-color: #ffc107; /* Background highlight color */
+            padding: 10px; /* Add padding for better visibility */
+            border-radius: 5px; /* Optional: Rounded corners */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Box shadow for depth */
+            display: inline-block; /* Ensure inline block to contain padding */
+        }
+        h1 {
+            text-align: center;
+            color: #333; /* Adjust color as needed */
+            font-size: 2.5rem; /* Adjust font size as needed */
+            margin-top: 20px; /* Adjust margin top as needed */
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .grid-item span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>BIRYANI AND ITS TYPES</h1>
+    <h1><span class="highlight">BIRYANI AND ITS TYPES</span></h1>
     <div class="grid-container">
         <div class="grid-item">
             <a href="chicken_biryani.html" target="_blank"><img src="biryani1.webp" alt="Chicken Biryani"><span>Chicken Biryani</span></a>
@@ -20,6 +61,18 @@
         </div>
         <div class="grid-item">
             <a href="veg_biryani.html" target="_blank"><img src="vegetable.jpg" alt="Vegetable Biryani"><span>Vegetable Biryani</span></a>
+        </div>
+        <div class="grid-item">
+            <a href="mutton_biryani.html" target="_blank"><img src="mutton.png" alt="Mutton Biryani"><span>Mutton Biryani</span></a>
+        </div>
+        <div class="grid-item">
+            <a href="prawn_biryani.html" target="_blank"><img src="prawn.png" alt="Prawn Biryani"><span>Prawn Biryani</span></a>
+        </div>
+        <div class="grid-item">
+            <a href="fish_biryani.html" target="_blank"><img src="fish.jpg" alt="Fish Biryani"><span>Fish Biryani</span></a>
+        </div>
+        <div class="grid-item">
+            <a href="dum_biryani.html" target="_blank"><img src="dum.png" alt="Dum Biryani"><span>Dum Biryani</span></a>
         </div>
     </div>
 </body>
