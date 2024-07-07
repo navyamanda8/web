@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('b1.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -9,11 +9,12 @@ body {
     justify-content: space-between;
     min-height: 100vh;
 }
+
 .grid-container {
-    max-width: 600px; /* Adjust the width as needed */
+    max-width: 1200px; /* Adjust the width as needed */
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 20px;
     justify-items: center;
     padding: 20px;
@@ -24,6 +25,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%; /* Ensure grid items take full width */
+    height: 200px; /* Increase height to make images larger */
 }
 
 .grid-item span {
